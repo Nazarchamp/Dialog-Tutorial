@@ -36,3 +36,11 @@ close.addEventListener('click', () => {
     dialog.close();
 });
 ```
+And there you have it, your `dialog` is up and running!
+
+## Conclusion
+In conclusion, `dialog` is a useful new element that allows you to popup modals easily with built in styling and functionality. To view some more exammples of modals you can view the files in this directory.
+
+## References
+- [MDN web docs dialog](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
+- [You can Finally make use of the HTML Dialog Element](https://towardsdev.com/you-can-finally-make-use-of-the-html-dialog-element-f4b7c591b1b6)
