@@ -8,7 +8,7 @@ A `dialog` is essentially a Popup div bundled into default styling of a browser.
 to appear in front of all the other content on your screen, move it into the desired location, add a backdrop and create a function to close your modal. A `dialog` comes with all of this preconfigured, and if you don't like some of the default styling simply override it in CSS.
 
 ## How to use it
-##### HTML
+#### HTML
 In HTML you simply use `dialog` like you would a popup `div` in the following manner: `<dialog>`content`</dialog>`. Where the content is what you want to display when your dialog opens. Make sure to have a button to open your dialog, and one to close it (This is slightly optional, as dialogs will by default close when `esc` is clicked).
 ```html
     <button id='open'>Open Dialog</button>
@@ -20,7 +20,7 @@ In HTML you simply use `dialog` like you would a popup `div` in the following ma
     </dialog>
 ```
 
-##### JavaScript
+#### JavaScript
 In JS assign event listeners to each of the buttons that open and close the dialog.
 ```js
 const open = document.getElementById('open');
